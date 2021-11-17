@@ -1,11 +1,15 @@
 import TopBar from "./components/TopBar/TopBar";
+import SideBar from "./components/SideBar/SideBar";
 import "./App.css"
 
 function App() {
   return (
-    <div>
+    <>
       <TopBar />
-    </div>
+      <div className="container">
+        <SideBar />
+      </div>
+    </>
   );
 }
 
