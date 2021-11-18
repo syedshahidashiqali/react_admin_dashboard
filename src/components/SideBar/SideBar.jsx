@@ -21,10 +21,12 @@ function SideBar() {
                 <div className="sideBarMenu">
                     <h3 className="sideBarTitle">Dashboard</h3>
                     <ul className="sideBarList">
-                        <li className="sideBarListItem active">
-                            <LineStyleIcon className="sideBarIcon" />
-                            Home
-                        </li>
+                        <a href="/" className="link">
+                            <li className="sideBarListItem active">
+                                <LineStyleIcon className="sideBarIcon" />
+                                Home
+                            </li>
+                        </a>
                         <li className="sideBarListItem">
                             <TimelineIcon className="sideBarIcon" />
                             Analytics
@@ -38,14 +40,18 @@ function SideBar() {
                 <div className="sideBarMenu">
                     <h3 className="sideBarTitle">Quick Menu</h3>
                     <ul className="sideBarList">
-                        <li className="sideBarListItem">
-                            <PersonOutlineOutlinedIcon className="sideBarIcon" />
-                            Users
-                        </li>
-                        <li className="sideBarListItem">
-                            <StorefrontOutlinedIcon className="sideBarIcon" />
-                            Products
-                        </li>
+                        <a href="/users" className="link">
+                            <li className="sideBarListItem">
+                                <PersonOutlineOutlinedIcon className="sideBarIcon" />
+                                Users
+                            </li>
+                        </a>
+                        <a href="/products" className="link">
+                            <li className="sideBarListItem">
+                                <StorefrontOutlinedIcon className="sideBarIcon" />
+                                Products
+                            </li>
+                        </a>
                         <li className="sideBarListItem">
                             <AttachMoneyOutlinedIcon className="sideBarIcon" />
                             Transactions
