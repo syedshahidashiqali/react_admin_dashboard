@@ -3,10 +3,10 @@ import {
     LineChart, 
     Line, 
     XAxis, 
-    YAxis, 
+    // YAxis, 
     CartesianGrid, 
     Tooltip, 
-    Legend, 
+    // Legend, 
     ResponsiveContainer 
 } from 'recharts';
 
