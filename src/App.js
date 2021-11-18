@@ -6,6 +6,7 @@ import UsersList from "./pages/UsersList/UsersList";
 
 // import react-router-dom things
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import User from "./pages/User/User";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/users" element={<UsersList />} />
+            <Route path="/users/:id" element={<User />} />
           </Routes>
         </Router>
         

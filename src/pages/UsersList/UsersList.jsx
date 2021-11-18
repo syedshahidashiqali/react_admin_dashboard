@@ -7,9 +7,6 @@ import { useState } from "react";
 // import dumy rows of data table
 import {usersRows} from "./dummyData";
 
-
-
-
 function UsersList() {
 
     const [usersData, setUsersData] = useState(usersRows);
