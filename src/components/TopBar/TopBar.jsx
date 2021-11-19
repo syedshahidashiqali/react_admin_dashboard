@@ -13,14 +13,14 @@ function TopBar() {
                 </div>
                 <div className="topRight">
                     <div className="topBarIconContainer">
-                        <NotificationsNoneIcon />
+                        <NotificationsNoneIcon className="topBarIcon" />
                         <span className="iconCount">2</span>
                     </div>
                     <div className="topBarIconContainer">
-                        <LanguageIcon />
+                        <LanguageIcon className="topBarIcon" />
                         <span className="iconCount">4</span>
                     </div><div className="topBarIconContainer">
-                        <SettingsIcon />
+                        <SettingsIcon className="topBarIcon" />
                     </div>
                     <img className="topAvatar" src="https://images.pexels.com/photos/1526814/pexels-photo-1526814.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="sample" />
                 </div>
