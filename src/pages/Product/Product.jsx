@@ -1,4 +1,3 @@
-import { Link } from "@mui/material";
 import Chart from "../../components/Chart/Chart";
 import "./Product.css";
 
@@ -12,9 +11,9 @@ function Product() {
         <div className="product">
             <div className="productTitleContainer">
                 <h1 className="productTitle">Product</h1>
-                <Link to="/newProduct">
+                <a href="/newProduct">
                     <button className="productCreateButton">Create</button>
-                </Link>
+                </a>
             </div>
             <div className="productTop">
                 <div className="productTopLeft">
